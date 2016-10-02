@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <style type="text/css">
+      html,body {
+      background: url("bg.jpg") no-repeat center center fixed;
+      -webkit-background-size: cover; /* For WebKit*/
+      -moz-background-size: cover;    /* Mozilla*/
+      -o-background-size: cover;      /* Opera*/
+      background-size: cover;         /* Generic*/
+      }
+      </style>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+      <nav class="navbar navbar-inverse">
+        <center><a href="http://fogflock.com"><img src="fogflock_logo.png" height=64px width=171px></a></center>
+      </nav>
+        <div class="container-fluid center-block" style="width:100%">
+        <div class="row center-block" style="max-width:1200px">
+          <center><font color="white"><h1>Fog Flock maps music scenes.</br></br>Enter some SoundCloud usernames to begin discovering new music</h1></font></center>
+          </br>
+          <form action="http://fogflock.com/test.php" method="get">
+              <input type="text" class="form-control" name="users">
+              <input type="submit" class="btn btn-success btn-block form-control"  value="Get Recommendations">
+          </form>
+      </div>
+    </div>
+  </body>
+</html>
